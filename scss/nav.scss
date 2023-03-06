@@ -1,0 +1,35 @@
+.nav-container {
+  height: 92.5px;
+  width: 990px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  //   margin: 0 auto;
+  border-bottom: 3px solid #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  //   width: 100%;
+  z-index: 2;
+
+  .nav-logo {
+    height: 49px;
+    width: 109px;
+    background-image: url(../images/logo/logo-black.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+  }
+
+  .nav-links {
+    margin-top: 45px;
+    font-family: "Gill Sans";
+    color: #ee4367;
+  }
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}

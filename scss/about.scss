@@ -1,0 +1,32 @@
+.about-hero {
+  height: 378px;
+  width: 979px;
+  background-image: url(../images/about.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 178px;
+  margin-left: 151px;
+
+  .color-overlay6 {
+    height: 378px;
+    width: 979px;
+    background-color: #ffd140;
+    opacity: 0.7;
+  }
+}
+
+.about-title {
+  margin-left: 150px;
+  font-family: "Gill Sans";
+  margin-top: -30px;
+}
+
+.about-text {
+  font-family: "Gill Sans";
+  font-size: x-large;
+  width: 70%;
+  margin-left: 151px;
+  margin-top: 47px;
+  padding-bottom: 95px;
+}

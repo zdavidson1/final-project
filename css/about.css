@@ -1,0 +1,8 @@
+.about-hero {
+  height: 378px;
+  width: 979px;
+  background-image: url(../images/about.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventsy</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="site-container">
+      <div class="nav-container">
+        <div class="nav-logo"></div>
+        <div class="nav-links">
+          <nav>
+            <a id="home" href="#">home</a>/ <a id="about" href="#">about</a>/
+            <a id="gallery" href="#">gallery</a>/
+            <a id="blog" href="#">blog</a>/
+            <a id="contact" href="#">contact</a>/
+          </nav>
+        </div>
+      </div>
+      <div id="app"></div>
+
+      <script src="lib/jquery-3.6.3.min.js"></script>
+      <!-- <script src="app/model.js"></script>
+    <script src="app/app.js"></script> -->
+      <script type="module" src="app/model-module.js"></script>
+      <script type="module" src="app/app-module.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+.blog-title {
+  margin-top: 156px;
+  margin-left: 150px;
+  font-family: "Gill Sans";
+}
+
+.blog-first-row {
+  display: flex;
+  margin-left: 150px;
+  .blog-entry1 {
+    display: flex;
+
+    .Date-box {
+      position: relative;
+      width: 60px;
+      height: 60px;
+      background-color: #ee4367;
+      text-align: center;
+      font-size: 22px;
+      margin-right: 20px;
+    }
+
+    .blog-img {
+      height: 140px;
+      width: 380px;
+      background-image: url(../images/blog.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+  }
+
+  .Date-box2 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: #ee4367;
+    text-align: center;
+    font-size: 22px;
+    margin-right: 20px;
+    margin-left: 59px;
+  }
+}
+
+.blog-text-container {
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 86px;
+
+  .blog-entry-title {
+    font-family: "Gill Sans";
+    font-size: 15px;
+    margin-top: 20px;
+    width: 250px;
+    // margin-left: 80px;
+  }
+
+  .blog-entry-text {
+    font-family: "Gill Sans";
+    font-size: 15px;
+    width: 380px;
+    // margin-left: 80px;
+  }
+}
+
+// Starting of blog post
+
+.blog-hero {
+  height: 300px;
+  width: 981px;
+  background-image: url(../images/blog.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 150px;
+  margin-top: 148px;
+
+  .color-overlay6 {
+    height: 300px;
+    width: 981px;
+    background-color: #ee4367;
+    opacity: 0.7;
+  }
+}
+
+.date-box1 {
+  height: 155px;
+  width: 155px;
+  background-color: #ee4367;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Gill Sans";
+  margin-top: -220px;
+  margin-left: 562px;
+}
+
+.blog-post-title {
+  color: #ee4367;
+  margin-left: 150px;
+  margin-top: 110px;
+}
+
+.blog-post-paragraph {
+  margin-left: 150px;
+  margin-top: 30px;
+  width: 800px;
+}
+
+.blog-post-paragraph2 {
+  margin-left: 150px;
+  margin-top: 33px;
+  width: 800px;
+}
+
+.blog-post-title2 {
+  color: #ee4367;
+  margin-left: 150px;
+  margin-top: 55px;
+}
+
+.blog-post-paragraph3 {
+  margin-left: 150px;
+  margin-top: 33px;
+  width: 800px;
+  margin-bottom: 155px;
+}

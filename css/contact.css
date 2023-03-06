@@ -1,0 +1,23 @@
+.contact-wrapper {
+  height: 700px;
+}
+.contact-wrapper .contact-form .name-box {
+  height: 60px;
+  width: 529px;
+  border: 1px solid black;
+}
+.contact-wrapper .contact-form .email-box {
+  height: 60px;
+  width: 529px;
+  border: 1px solid black;
+}
+.contact-wrapper .contact-form .company-box {
+  height: 60px;
+  width: 529px;
+  border: 1px solid black;
+}
+.contact-wrapper .contact-form .message-box {
+  height: 199px;
+  width: 529px;
+  border: 1px solid black;
+}
